@@ -7,17 +7,25 @@ body{
     width: 100%;
     display: flex;
     justify-content: end;
+    align-items: end;
     
 }
 
-.barra-superior{
+.contenedor-right{
     width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.barra-superior{
+    width: 100%;
     height: 60px;
     background-color: rgb(95, 108, 108);
     display: flex;
     align-items: center;
     justify-content: end;
-    padding-right: 30px;
     font-size: 15px;
 }
 
@@ -27,9 +35,18 @@ body{
     background: white;
     border-radius: 50%;
     border: 1px black solid;
+    margin-right: 10px;
 }
 
 span{
     font-size: 25px;
     margin: 15px;
+}
+
+.buscar{
+    width: 900px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px black solid;
+    margin-top: 20px;
 }
