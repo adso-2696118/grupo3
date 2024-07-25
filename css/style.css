@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.barra-derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+}
+.elemento-vertical {
+    width: 50px;
+    height: 200px;
+    background-color: rgb(200, 200, 200);
+    margin-bottom: 20px;
+}
