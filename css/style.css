@@ -49,4 +49,22 @@ span{
     border-radius: 20px;
     border: 1px black solid;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
+
+.box1, .box2{
+    width: 40%;
+    height: 260px;
+    background-color: rgb(95, 108, 108);
+    margin-bottom: 40px;
+    margin-right: 520px;
+
+}
+
+.box3{
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+    flex-direction: column;
+}
+
