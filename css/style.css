@@ -52,19 +52,42 @@ span{
     margin-bottom: 40px;
 }
 
-.box1, .box2{
-    width: 40%;
+.boxes{
+    display: flex;
+}
+.box1{
+    width: 360px;
     height: 260px;
     background-color: rgb(95, 108, 108);
     margin-bottom: 40px;
-    margin-right: 520px;
+    /* margin-right: 470px; */
+}
+.box2{
+    width: 360px;
+    height: 260px;
+    background-color: rgb(95, 108, 108);
+    margin-bottom: 40px;
+    margin-right: 110px;
 
 }
 
 .box3{
-    width: 30px;
-    height: 30px;
-    background-color: blueviolet;
-    flex-direction: column;
+    width: 360px;
+    height: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 108, 108);
 }
+.box3-1, .box3-2{
+margin-top: 100px;
+    width: 70px;
+    height: 80%;
+    margin: 30px;
+    border: 2px rgb(255, 255, 255) solid;
+    background-color: rgba(95, 108, 108, 0.226);
+}
+
+
+
 
