@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width:10px;
+    height: 10px
+}
+
+div{
+    width: 170px;
+    height: 150vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(32, 31, 31);
+}
+
+.circulo{
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    border-radius: 100px;
+    background-color: rgb(226, 233, 232);
+    background-image: url(../img/imagen.png.jpeg);
+}
+
