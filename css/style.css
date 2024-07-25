@@ -1,70 +1,87 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    width: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    
+body {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }
 
-.contenedor-right{
-    width: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.contenedor-right {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.barra-superior{
-    width: 100%;
-    height: 60px;
-    background-color: rgb(95, 108, 108);
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    font-size: 15px;
+.barra-superior {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(95, 108, 108);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 15px;
 }
 
-.img{
-    width: 35px;
-    height: 35px;
-    background: white;
-    border-radius: 50%;
-    border: 1px black solid;
-    margin-right: 10px;
+.img {
+  width: 35px;
+  height: 35px;
+  background: white;
+  border-radius: 50%;
+  border: 1px black solid;
+  margin-right: 10px;
 }
 
-span{
-    font-size: 25px;
-    margin: 15px;
+span {
+  font-size: 25px;
+  margin: 15px;
 }
 
-.buscar{
-    width: 900px;
-    height: 40px;
-    border-radius: 20px;
-    border: 1px black solid;
-    margin-top: 20px;
-    margin-bottom: 40px;
+.buscar {
+  width: 900px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px black solid;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
-.box1, .box2{
-    width: 40%;
-    height: 260px;
-    background-color: rgb(95, 108, 108);
-    margin-bottom: 40px;
-    margin-right: 520px;
-
+.box1,
+.box2 {
+  width: 40%;
+  height: 260px;
+  background-color: rgb(95, 108, 108);
+  margin-bottom: 40px;
+  margin-right: 520px;
 }
 
-.box3{
-    width: 30px;
-    height: 30px;
-    background-color: blueviolet;
-    flex-direction: column;
+.box3 {
+  width: 30px;
+  height: 30px;
+  background-color: blueviolet;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
 }
 
+.barra-izquierda {
+  width: 170px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(32, 31, 31);
+}
+
+.circulo {
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+  border-radius: 100px;
+  background-color: rgb(226, 233, 232);
+  background-image: url(../img/imagen.png.jpeg);
+}
